@@ -5,16 +5,19 @@ body{
     justify-content: space-between;
     min-height: 100vh;
     flex-shrink: 0;
+    margin: 0;
 }
 
 header{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
     margin-left: 500px;
     margin-right: 500px;
     padding-left: 20px;
     border-radius: 16px;
+    background-color: black;
     box-shadow: 0 4px 30px white;
     backdrop-filter: blur(8.1px);
     border: 1px solid white;
@@ -41,8 +44,6 @@ main{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 500px;
-    margin-right: 500px;
     flex: 1;
 }
 
@@ -51,16 +52,46 @@ main{
     display: flex;
     font-family: monospace;
     align-items: center;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px white;
+    backdrop-filter: blur(8.1px);
+    border: 1px solid white;
+    background-color: black;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
 .section-one-text{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-right: 200px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
 }
 
 .section-one-title{
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: 800;
+    -webkit-text-stroke: 0.2px black;
+    background: -webkit-linear-gradient(#ffff00, #02eeff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
+.section-one-description{
+    color: white;
+}
+
+.section-one-image{
+    padding: 40px;
+}
+
+.section-two{
+    background: rgba(255, 255, 255, 0.26);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
