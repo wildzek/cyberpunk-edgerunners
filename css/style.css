@@ -16,7 +16,7 @@ header{
     margin: 20px 500px 0px 500px;
     padding-left: 20px;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.26);
+    background: rgba(0, 0, 0, 0.750);
     box-shadow: 0 4px 30px white;
     -webkit-backdrop-filter: blur(8.1px);
     border: 1px solid white;
@@ -26,15 +26,15 @@ header{
 .header-links{
     display: flex;
     gap: 40px;
-    font-family: monospace;
-    font-weight: bold; 
+    font-family: 'Black Ops One';
+    font-weight: 1000; 
     padding-right: 40px;  
 }
 
 a{
     text-decoration: none;
     -webkit-text-stroke: 0.2px black;
-    background: -webkit-linear-gradient(#03f0f8, #ffe603);
+    background: -webkit-linear-gradient(#e5ff00, #bbff00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -48,14 +48,12 @@ main{
 .section-one{
     margin-top: 100px;
     display: flex;
-    font-family: monospace;
     align-items: center;
-    text-transform: uppercase;
     border-radius: 16px;
     box-shadow: 0 4px 30px white;
     -webkit-backdrop-filter: blur(8.1px);
     border: 1px solid white;
-    background: rgba(0, 0, 0, 0.26);
+    background: rgba(0, 0, 0, 0.750);
     margin-left: 500px;
     margin-right: 500px;
 }
@@ -69,29 +67,36 @@ main{
 }
 
 .section-one-title{
-    font-size: 36px;
-    font-weight: 800;
+    font-size: 34px;
+    font-weight: 1000;
     -webkit-text-stroke: 1px black;
-    background: -webkit-linear-gradient(#03f0f8, #ffe603);
+    background: -webkit-linear-gradient(#e5ff00, #bbff00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: 'Black Ops One';
+    text-transform: uppercase;
 }
 
 .button1{
     width: 200px;
     box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
     background-color: #33322c;
-    color: rgb(255, 255, 255);
-    border: 2px solid rgba(255, 255, 255, 0.699);
+    color: rgba(255, 255, 255, 0.822);
+    border: 2px solid rgb(238, 255, 1);
+    font-family: 'VT323';
     border-radius: 16px;
-    font-weight: light;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 
 .section-one-description{
     display: inline-block;
     text-align: center;
-    color: rgba(246, 247, 225, 0.664);
+    color: rgba(246, 247, 225, 0.767);
+    font-family: 'VT323';
+    font-size: 25px;
+    padding-bottom: 20px;
 }
 
 .section-one-image{
@@ -102,7 +107,7 @@ main{
     background: rgba(255, 255, 255, 0.26);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8.1px);
-    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     height: 400px;
     margin-top: 100px;
@@ -112,9 +117,15 @@ main{
     margin: 100px 500px 0px 500px;
     display:flex;
     justify-content: space-between;
+    text-transform: uppercase;
 }
 
 .section-two-title{
     margin-top: 50px;
     text-align: center;
+    font-size: 50px;
+    font-family: 'Black Ops One';
+    font-weight: bolder;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
